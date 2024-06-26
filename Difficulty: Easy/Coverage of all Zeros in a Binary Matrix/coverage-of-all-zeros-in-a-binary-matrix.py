@@ -1,3 +1,5 @@
+#User function Template for python3
+
 class Solution:
     def findCoverage(self, matrix):
         # Code here
@@ -16,7 +18,6 @@ class Solution:
                     if(j + 1 < m and matrix[i][j + 1] == 1):
                         countOne += 1
         return countOne
-
 
 
 #{ 
